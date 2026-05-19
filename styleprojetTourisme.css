@@ -1,0 +1,61 @@
+/* Style pour le corps de la page */
+body{
+    background-color: #000000;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+
+/* Style pour la page titre */
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    border: 2px solid hsl(0, 0%, 0%);
+     
+}
+
+
+/* Style pour la description de l'agence */
+#presenter{
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+        font-size: 14px;
+        color: #ffffff;
+        background-color: #000000;
+    }
+    h1 {
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Arial', sans-serif;
+        border: 2px solid hsl(0, 0%, 0%);
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+        color: #ffffff;
+        background-color: #000000;
+    }
+    h1 {
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Arial', sans-serif;
+        border: 2px solid hsl(0, 0%, 0%);
+    }
+}
+
+
+
+
+
+
+

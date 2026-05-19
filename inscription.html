@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<!-- La page pour ce crée un compte -->
+ <!--HEADER-->
+ <head>
+    <title>Pro-ject: Compte</title>
+ </head>
+
+ <!--BODY-->
+ <body>
+    <!-- Barre de navigation -->
+    <nav>
+        <a href="index.html">Accueil</a> |
+        <a href="login.html">Connexion</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+        <h2> Nouvelle inscription</h2>
+        <p>Veuillez écrires les informations et confirmer la création de votre compte</p>
+
+    <!--Création du compte -->
+    <form action="inscription.php" method="post" enctype="application/x-www-form-urlencoded">
+        <label for="email"> Courriel:</label>
+        <input type="text" id="email" name="email" required><br><br>
+
+        <label for="mdp"> Mot de passe: </label>
+        <input type="password" id="mdp" name="mdp" required><br><br>
+
+        <label for="mdp_confirm"> Confirmer votre mot de passe: </label>
+        <input type="password" id="mdp_confirm" name="mdp_confirm" required><br><br>
+        <input type="submit" value="Soumettre" action="inscription.php"><br><br>
+    </form>
+    
+        <a href="login.html">Déjà un compte? Connectez-vous !</a>
+        <br><br>
+ 
+ <!--FOOTER-->
+ <p> Pour d'autres informations, contactez-nous !</p>
+     <footer>
+          <p>© AtoshBaba Inc. (2026) Projet du cours TCH056 - Programmation Web (Été 2026)</p>
+    </footer>
+</body>
+</html>
+        
