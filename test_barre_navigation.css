@@ -1,3 +1,32 @@
+/* Reset des marges par défaut pour éviter les bords gris sur les côtés */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ededed;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 0;
+    overflow: visible; /* allow dropdown to escape header bounds */
+}
+
+/* Ligne séparatrice : s'assurer qu'elle est flush avec le header */
+#head {
+    margin: 0;
+    border: 0;
+    height: 2px; /* épaisseur de la ligne */
+    background-color: #b3b3b3; /* couleur de la ligne / séparation */
+    display: block;
+    width: 100%;
+}
+
 /* Barre de navigation divisée en deux sections */
 .navbar-split {
     display: flex;
@@ -34,6 +63,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
+    z-index: 10000; /* ensure dropdown container sits above other content */
 }
 
 .dropdown-img {
@@ -54,7 +84,7 @@
     border: 2px solid #b3b3b3;
     border-radius: 8px;
     min-width: 150px;
-    z-index: 1;
+    z-index: 10001; /* put menu above page content */
     flex-direction: column;
 }
 
@@ -78,5 +108,3 @@
 .dropdown:hover .dropdown-menu {
     display: flex;
 }
-
-/* ===== TEST-BARRE NAVIGATION FIN ===== */
