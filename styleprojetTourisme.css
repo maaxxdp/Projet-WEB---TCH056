@@ -77,7 +77,6 @@ footer {
 /*ligne séparatrice entre le header et le main*/
 #head{
     border: 2px solid hsl(0, 0%, 100%);
-    margin: 20px;
 }
 
 

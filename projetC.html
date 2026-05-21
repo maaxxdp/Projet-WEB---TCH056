@@ -4,17 +4,30 @@
  <!--HEADER-->
  <head>
     <title>projetC</title>
-    <link rel="stylesheet" href="styleprojetTourisme.css">
+    <link rel="stylesheet" href="test_barre_navigation.css">
  </head>
 
  <!--BODY-->
  <body>
    <!-- Barre de navigation -->
     <header>
-        <nav>
-            <a href="index.html">Accueil</a> |
-            <a href="login.html">Connexion</a> |
-            <a href="contact.html">Contact</a>
+        <nav class="navbar-split">
+            <!-- Boîte de gauche: liens réguliers -->
+            <div class="navbar-left">
+                <a href="index.html">Accueil</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+            
+            <!-- Boîte de droite: image + dropdown -->
+            <div class="navbar-right">
+                <div class="dropdown">
+                    <img src="./images_projet/account.png" alt="Menu utilisateur" class="dropdown-img">
+                    <div class="dropdown-menu">
+                        <a href="login.html">Connexion</a>
+                        <a href="inscription.html">Création de compte</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <hr id="head">
