@@ -27,6 +27,19 @@ header
     padding: 20px;
 }
 
+/* Force l'alignement et l'espacement de la barre de navigation */
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+header nav a {
+    color: inherit;
+    text-decoration: none;
+    padding: 4px 8px;
+}
+
 footer {
     text-align: center;
     background-color: #000000;
