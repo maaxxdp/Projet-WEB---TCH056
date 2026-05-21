@@ -1,0 +1,67 @@
+nav{
+    text-align:center;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 30px 30px 30px 30px;
+    margin:0 10px;
+}
+
+
+.Connexion{
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px;
+    border-radius: 40px;
+    border: 2px solid hsl(0, 0%, 0%);
+}
+
+#email, #password{
+    padding: 10px;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 30px;
+    background-color: #b5b5b5;
+    width: 300px;
+}
+#submit{
+    padding: 10px 150px;
+    border: none;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 300px) {
+    .Connexion{
+        text-align: center;
+        background-color: #ffffff;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        color: #000000;
+        padding: 10px;
+        border-radius: 40px;
+        border: 2px solid hsl(0, 0%, 0%);
+        margin: 20px;
+    }
+    #email, #password{
+        padding: 5px;
+        border: 1px solid hsl(0, 0%, 0%);
+        border-radius: 20px;
+        width: 100%;
+    }
+}
