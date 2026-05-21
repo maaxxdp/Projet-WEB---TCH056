@@ -5,11 +5,15 @@ nav{
 h2{
     font-family: 'Arial', sans-serif;
     font-weight: bold;
+    margin-bottom: 20px; 
     color: #000000db;
     border: 1px solid hsl(0, 0%, 0%);
-    padding: 10px;
+    padding: 0px;
     border-radius: 30px;
-    margin: 20px 30px 40px 30px;
+    width: 60%;
+    margin: auto auto 30px 80px;
+    text-shadow: 2px 2px 4px #243cc3;
+
 }
 
 footer {
@@ -27,6 +31,7 @@ footer {
 
 .Connexion{
     text-align: center;
+    margin: 20px auto;
     background-color: #ffffff;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
@@ -34,6 +39,8 @@ footer {
     padding: 10px;
     border-radius: 40px;
     border: 2px solid hsl(0, 0%, 0%);
+    height: 400px;
+    width: 400px;
 }
 
 #email, #password{
@@ -44,7 +51,7 @@ footer {
     width: 300px;
 }
 #submit{
-    padding: 10px 150px;
+    padding: 10px 100px;
     border: none;
     border-radius: 30px;
     background-color: #000000;
@@ -52,24 +59,28 @@ footer {
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     cursor: pointer;
+    float: center;
+    margin: 20px auto;
 }
 
-@media only screen and (max-width: 300px) {
-    .Connexion{
-        text-align: center;
-        background-color: #ffffff;
-        font-family: 'Arial', sans-serif;
-        font-weight: bold;
-        color: #000000;
-        padding: 10px;
-        border-radius: 40px;
-        border: 2px solid hsl(0, 0%, 0%);
-        margin: 20px;
+#submit:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid hsl(0, 0%, 0%);
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 400px) {
+    .Connexion {
+        width: 90%;
+        height: auto;
+
     }
-    #email, #password{
-        padding: 5px;
+    #email, #password, #submit {
+        width: 200px;
+        padding: 10px;
         border: 1px solid hsl(0, 0%, 0%);
-        border-radius: 20px;
-        width: 100%;
+        margin : auto;
+        
     }
 }
