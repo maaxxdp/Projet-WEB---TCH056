@@ -68,8 +68,14 @@ footer {
     padding: 0;
     border-radius: 40px;
     border: 2px solid hsl(0, 0%, 100%);
-
 }
+
+#recherche{
+    color: #000;
+    text-align: center;
+}
+
+
 #presenter{
     font-size: 18px;
     color: #ffffff;
@@ -101,7 +107,7 @@ footer {
     font-family: 'Arial', sans-serif;
 }
 
-.turkey a{
+ a{
     text-align: left;
     color: #00ffe5;
     font-family: 'Arial', sans-serif;
@@ -112,6 +118,11 @@ footer {
     color: #ffffff;
     font-family: 'Arial', sans-serif;
     font-weight: bold;
+    
+}
+
+#forfait{
+    width: 80%;
     
 }
 
@@ -144,6 +155,9 @@ footer {
         font-weight: bold;
         color: #333;
         padding: 20px;
+    }
+    .search p{
+        color:#000000
     }
 
 }
