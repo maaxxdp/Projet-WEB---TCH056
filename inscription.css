@@ -1,5 +1,5 @@
 
-h2
+h1
 {
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -7,15 +7,20 @@ h2
     margin-bottom: 10px; 
     color: #000000db;
     padding: 0px;
-    border-radius: 30px;
+    border-radius: 0%;
     width: 60%;
-    margin: auto auto 30px 125px;
+    margin: auto auto;
     text-shadow: 2px 2px 4px #243cc3;
 }
 main{
     font-family: 'Arial', sans-serif;
-    text-align: left;
+    text-align:left;
+    margin: auto auto;
 
+}
+.text{
+    text-align: center;
+    margin: 20px auto;
 }
 .Connexion
 {
