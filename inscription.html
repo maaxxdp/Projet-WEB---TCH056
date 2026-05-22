@@ -5,39 +5,61 @@
  <head>
     <title>Pro-ject: Compte</title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="template.css">
+        <link rel="stylesheet" href="inscription.css">
  </head>
 
  <!--BODY-->
  <body>
     <!-- Barre de navigation -->
-    <nav>
-        <a href="index.html">Accueil</a> |
-        <a href="login.html">Connexion</a> |
-        <a href="contact.html">Contact</a>
-    </nav>
-
+     <!-- Barre de navigation -->
+    <header>
+        <nav class="navbar-split">
+            <!-- Boîte de gauche: liens réguliers -->
+            <div class="navbar-left">
+                <a href="index.html">Accueil</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+            
+            <!-- Boîte de droite: image + dropdown -->
+            <div class="navbar-right">
+                <div class="dropdown">
+                    <img src="./images_projet/account.png" alt="Menu utilisateur" class="dropdown-img">
+                    <div class="dropdown-menu">
+                        <a href="login.html">Connexion</a>
+                        <a href="inscription.html">Création de compte</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <hr id="head">
         <h2> Nouvelle inscription</h2>
-        <p>Veuillez écrires les informations et confirmer la création de votre compte</p>
+    </hr>
 
     <!--Création du compte -->
-    <form action="inscription.php" method="post" enctype="application/x-www-form-urlencoded">
-        <label for="email"> Courriel:</label>
-        <input type="text" id="email" name="email" required><br><br>
+  <main>
+    <p>Veuillez écrires les informations et confirmer la création de votre compte</p>
+    <div class="Connexion">
+        <form action="inscription.php" method="post" enctype="application/x-www-form-urlencoded">
+            <label for="email"> Courriel:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
 
-        <label for="mdp"> Mot de passe: </label>
-        <input type="password" id="mdp" name="mdp" required><br><br>
+            <label for="password"> Mot de passe: </label>
+            <input type="password" id="mdp" name="password" required><br><br>
 
-        <label for="mdp_confirm"> Confirmer votre mot de passe: </label>
-        <input type="password" id="mdp_confirm" name="mdp_confirm" required><br><br>
-        <input type="submit" value="Soumettre" action="inscription.php"><br><br>
-    </form>
-    
-        <a href="login.html">Déjà un compte? Connectez-vous !</a>
-        <br><br>
+            <label for="mdp_confirm"> Confirmer votre mot de passe: </label>
+            <input type="password" id="mdp_confirm" name="mdp_confirm" required><br><br>
+            <input type="submit" id="submit" value="Soumettre" action="inscription.php"><br><br>
+             <a href="login.html">Déjà un compte? Connectez-vous !</a>
+        <p> Pour d'autres informations, contactez-nous !</p>
+        </form>
+    </div>
+      
+     </main>
  
  <!--FOOTER-->
- <p> Pour d'autres informations, contactez-nous !</p>
+
      <footer>
           <p>© AtoshBaba Inc. (2026) Projet du cours TCH056 - Programmation Web (Été 2026)</p>
     </footer>
