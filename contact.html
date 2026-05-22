@@ -2,6 +2,8 @@
 <html>
     <!--Lien au fichier CSS-->
      <link rel="stylesheet" href="contact.css">
+     <link rel="stylesheet" href="template.css">
+     
 <!-- Ce document vas etre le document d'acceuil-->
  <!--HEADER-->
  <head>
@@ -13,11 +15,28 @@
  <!--BODY-->
  <body>
     <!-- Barre de navigation -->
-    <nav>
-        <a href="index.html">Accueil</a> |
-        <a href="login.html">Connexion</a> |
-        <a href="contact.html">Contact</a>
-    </nav>
+     <!-- Barre de navigation -->
+    <header>
+        <nav class="navbar-split">
+            <!-- Boîte de gauche: liens réguliers -->
+            <div class="navbar-left">
+                <a href="index.html">Accueil</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+            
+            <!-- Boîte de droite: image + dropdown -->
+            <div class="navbar-right">
+                <div class="dropdown">
+                    <img src="./images_projet/account.png" alt="Menu utilisateur" class="dropdown-img">
+                    <div class="dropdown-menu">
+                        <a href="login.html">Connexion</a>
+                        <a href="inscription.html">Création de compte</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <hr id="head">
         <h2>Contactez nous</h2>
         <p>Une équipe prête a vous aider !</p>
 
