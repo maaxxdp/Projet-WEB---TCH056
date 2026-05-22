@@ -1,3 +1,75 @@
+
+h2
+{
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px; 
+    color: #000000db;
+    padding: 0px;
+    border-radius: 30px;
+    width: 60%;
+    margin: auto auto 30px 125px;
+    text-shadow: 2px 2px 4px #243cc3;
+}
+main{
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+
+}
+.Connexion
+{
+    text-align: center;
+    margin: 20px auto;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px;
+    border-radius: 40px;
+    border: 2px solid hsl(0, 0%, 0%);
+    height: 400px;
+    width: 400px;
+}
+#email, #mdp, #mdp_confirm{
+    padding: 10px;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 30px;
+    background-color: #b5b5b5;
+    width: 300px;
+}
+
+
+
+#email:hover, #mdp:hover, #mdp_confirm:hover{
+    padding: 10px;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 30px;
+    background-color: #b5b5b5;
+    width: 300px;
+    border: 2px solid hsl(239, 100%, 50%);
+}
+#submit{
+    padding: 10px 100px;
+    border: none;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    float: center;
+    margin: 20px auto;
+}
+
+#submit:hover{
+    background-color: #0819ff;
+    color: #000000;
+    border: 2px solid hsl(0, 0%, 0%);
+    transition: 0.5s;
+}
+
+
 footer {
     text-align: center;
     background-color: #000000;
@@ -8,4 +80,38 @@ footer {
     border: 2px solid hsl(0, 0%, 100%);
     border-radius: 30px 30px 30px 30px;
     margin:0 10px;
+}
+@media only screen and (max-width: 600px) {
+    
+    #email, #password, #submit {
+        width: 200px;
+        padding: 10px;
+        border: 1px solid hsl(0, 0%, 0%);
+        margin : auto;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #000000;
+    }
+
+    #inform {
+        color: #ffffff;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .Connexion:hover {
+        background-color: #c00000;
+        border: 2px solid hsl(0, 0%, 100%);
+    }
+    footer:hover {
+        background-color: #970000;
+        color: #000000;
+        border: 2px solid hsl(0, 0%, 0%);
+        transition: 0.5s;
+    }
 }
