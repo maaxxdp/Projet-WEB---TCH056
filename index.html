@@ -7,70 +7,82 @@
     <meta charset="UTF-8">
     <title>Pro-ject</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="template.css">
  </head>
 
  <!--BODY-->
 <body>
    <!-- Barre de navigation -->
     <header>
-      <nav>
-        <a href="index.html">Accueil</a> |
-        <a href="login.html">Connexion</a> |
-        <a href="contact.html">Contact</a>
-       </nav>
+        <nav class="navbar-split">
+            <!-- Boîte de gauche: liens réguliers -->
+            <div class="navbar-left">
+                <a href="index.html">Accueil</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+            
+            <!-- Boîte de droite: image + dropdown -->
+            <div class="navbar-right">
+                <div class="dropdown">
+                    <img src="./images_projet/account.png" alt="Menu utilisateur" class="dropdown-img">
+                    <div class="dropdown-menu">
+                        <a href="login.html">Connexion</a>
+                        <a href="inscription.html">Création de compte</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
+    <hr id="head">
 
     <main>
     <!-- Tête de la page -->
         <h1>PRO-JECT</h1>
         <h3>Votre gestionnaire de projets !</h3>
-        <p>Cherchez votre projet parmi les millions disponibles:</p>
+          <p>Cherchez votre projet parmi les millions disponibles:</p>
+        <div class="recherche-split">
+          <div class="recherche-left">
+            <!-- Filtres de projet -->
+            <div class="dropdownm">
+            <p class="dropdown-label">Filtrer par catégorie:</p>
+              <div class="dropdown-menu">
+              <button class="btn active" > Montrer tout</button>
+              <button class="btn" > En vedette</button>
+              <button class="btn" > Les plus aimés</button>
+              </div>
+            </div>
+          </div>
+          <div class="recherche-right">
+            <input type="search" placeholder="Rechercher un projet..."><br><br>
+            <button type="submit">Rechercher</button>
+          </div>
+        </div>
 
-
-<input type="search" placeholder="Rechercher un projet..."><br><br>
-<button type="submit">Rechercher</button>
-<br><br>
-
-<!-- Filtres de projet -->
-<div id="myBtnContainer">
-  <p>Filtrer par catégorie:</p>
-  <button class="btn active" > Montrer tout</button>
-  <button class="btn" > En vedette</button>
-  <button class="btn" > Les plus aimés</button>
-</div>
-
-
-
- <div class="row">
-  <div class="column">
-    <div class="content">
-      <img src="./images_projet/shoe_house.jpg" alt="shoe_house" style="width:40%">
-      <h4><a href="projet.html">ProjetA</a></h4>
-       <p>Auteur: Maxime D.</p>
-       <p>Description: Voici une maison bizzare que je construit</P>
-       <p>Lieu: ÉTS </p>
-       <p>Organisateur: Maxime Douangpanya. </p>
+<div class="projects-grid">
+    <div class="project-card">
+        <img src="./images_projet/shoe_house.jpg" alt="shoe_house" class="project-img">
+        <h4><a href="projet.html">ProjetA</a></h4>
+        <p>Auteur: Maxime D.</p>
+        <p>Description: Voici une maison bizzare que je construit</p>
+        <p>Lieu: ÉTS</p>
+        <p>Organisateur: Maxime Douangpanya.</p>
     </div>
-  </div>
- </div>
-
-<div>
- <a href="projetTourisme.html"><h4>ProjetB</h4></a>
-  <img src="./images_projet/tourism.webp" alt="Projet_B" width="30%" >  
-       <p>Auteur: Atilla A.U.</p>
-       <p>Description: Voici un site web d'une compagnie de tourisme.</P>
-       <p>Lieu: ÉTS </p>
-       <p>Organisateur: Atilla A.U</p>
-</div>
-
-
-<div>
-    <h4><a href="projetC.html">ProjetC</a></h4>     
-    <img src="./images_projet/img_ProjectC.jpg" alt="Projet_C" width="30%" >
-       <p>Auteur: Félix F.</p>
-       <p>Description: Voici une </p>
-       <p>Lieu: ÉTS </p>
-       <p>Organisateur: Atilla A.U </p>
+    <div class="project-card">
+        <img src="./images_projet/tourism.webp" alt="Projet_B" class="project-img">
+        <h4><a href="projetTourisme.html">ProjetB</a></h4>
+        <p>Auteur: Atilla A.U.</p>
+        <p>Description: Voici un site web d'une compagnie de tourisme.</p>
+        <p>Lieu: ÉTS</p>
+        <p>Organisateur: Atilla A.U</p>
+    </div>
+    <div class="project-card">
+        <img src="./images_projet/img_ProjectC.jpg" alt="Projet_C" class="project-img">
+        <h4><a href="projetC.html">ProjetC</a></h4>
+        <p>Auteur: Félix F.</p>
+        <p>Description: Voici une application de gestion de moteurs thermiques.</p>
+        <p>Lieu: ÉTS</p>
+        <p>Organisateur: Félix Fontaine</p>
+    </div>
 </div>
     </main>
 
