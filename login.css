@@ -2,7 +2,8 @@ nav{
     text-align:center;
 }
 
-h2{
+h2
+{
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     margin-bottom: 20px; 
@@ -13,7 +14,6 @@ h2{
     width: 60%;
     margin: auto auto 30px 80px;
     text-shadow: 2px 2px 4px #243cc3;
-
 }
 
 footer {
@@ -29,7 +29,10 @@ footer {
 }
 
 
-.Connexion{
+
+
+.Connexion
+{
     text-align: center;
     margin: 20px auto;
     background-color: #ffffff;
@@ -42,13 +45,21 @@ footer {
     height: 400px;
     width: 400px;
 }
-
 #email, #password{
     padding: 10px;
     border: 1px solid hsl(0, 0%, 0%);
     border-radius: 30px;
     background-color: #b5b5b5;
     width: 300px;
+}
+
+#email:hover, #password:hover{
+    padding: 10px;
+    border: 1px solid hsl(0, 0%, 0%);
+    border-radius: 30px;
+    background-color: #b5b5b5;
+    width: 300px;
+    border: 2px solid hsl(239, 100%, 50%);
 }
 #submit{
     padding: 10px 100px;
@@ -64,23 +75,50 @@ footer {
 }
 
 #submit:hover{
-    background-color: #ffffff;
+    background-color: #0819ff;
     color: #000000;
     border: 2px solid hsl(0, 0%, 0%);
     transition: 0.5s;
 }
 
-@media only screen and (max-width: 400px) {
-    .Connexion {
-        width: 90%;
-        height: auto;
+footer:hover {
+    background-color: #0819ff;
+    color: #000000;
+    border: 2px solid hsl(0, 0%, 0%);
+    transition: 0.5s;
+}
 
-    }
+@media only screen and (max-width: 600px) {
+    
     #email, #password, #submit {
         width: 200px;
         padding: 10px;
         border: 1px solid hsl(0, 0%, 0%);
         margin : auto;
-        
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: #000000;
+    }
+
+    #inform {
+        color: #ffffff;
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .Connexion:hover {
+        background-color: #c00000;
+        border: 2px solid hsl(0, 0%, 100%);
+    }
+    footer:hover {
+        background-color: #970000;
+        color: #000000;
+        border: 2px solid hsl(0, 0%, 0%);
+        transition: 0.5s;
     }
 }

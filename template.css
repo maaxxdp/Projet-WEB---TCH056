@@ -64,6 +64,10 @@ main{
     text-align: center;
 }
 
+.BasDePage{
+    color: #c0c0c0; /*n'A PAS L'AIR DE FONCTIONNER :( */
+}
+
 /* Barre de recherche divisée en deux sections */
 .recherche-split {
     display: flex;
