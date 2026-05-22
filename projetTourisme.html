@@ -31,9 +31,9 @@
 
     <!-- Barre de recherche pour les destinations-->
     <div class="search" id="recherche">
-    <p>À vous de choisir votre destination de votre rêve :</p>
+    <p id="choix">À vous de choisir votre destination de votre rêve :</p>
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Choisissez votre dest......" title="Type in a name"method="get"><br><br>
-    <input type="submit" value="Rechercher" method="get"><br><br><br><br>
+    <input type="submit" value="Rechercher" method="get" id="recherchee"><br><br><br><br>
     </div>
         
     <p id="popdestination">Parmi nos destinations les plus populaires</p>
@@ -43,8 +43,8 @@
     
     <menu>
         <!-- La Turquie-->
-        <div class="turkey">
-        <li><a href="https://goturkiye.com/fr-fr">Turquie</a></li>
+        <div class="pays">
+        <a href="https://goturkiye.com/fr-fr">Turquie</a>
         <p>Turquie est un pays fascinant qui allie tradition et modernité. Elle fait partie des 10 pays les plus visités au monde.
              Avec un record de visiteurs étrangers annuel de 52,78 millions en 2025 (source: <a href="https://www.dailysabah.com/business/tourism/turkiye-tops-2025-tourism-revenue-target-foreign-arrivals-hit-record">Dailysabah</a>), elle offre une expérience touristique unique et inoubliable.</p>
         <img src="./images_projet/blackSeaRegion.jpg" alt="Image de la Turquie" width="200" height="150">
@@ -58,8 +58,8 @@
             
 
          <!-- L'Algérie-->
-        <div class="algeria">
-        <li><a href="https://www.algerie.com/">Algérie</a></li>
+        <div class="pays">
+        <a href="https://www.algerie.com/">Algérie</a>
         <p>L'Algérie est un pays d'Afrique du Nord qui offre une diversité de paysages, de la mer Méditerranée aux montagnes de l'Atlas en passant par le désert du Sahara. Elle est connue pour sa richesse culturelle et ses paysages magnifiques. Elle est le pays le plus visité d'Afrique du Nord. </p>
         <img src="./images_projet/algeria1.jpg" alt="Image de l'Algérie" width="200" height="150">
         <img src="./images_projet/algeria2.jpg" alt="Image de l'Algérie" width="200" height="150">
@@ -71,8 +71,8 @@
         <hr>
         
         <!--Canada-->
-        <div class="canada"> 
-        <li><a href="https://www.destinationcanada.com/fr-ca!" >Canada</a></li>
+        <div class="pays"> 
+        <a href="https://www.destinationcanada.com/fr-ca!" >Canada</a>
         <p>Le Canada est un pays d'Amérique du Nord connu pour sa beauté naturelle, sa diversité culturelle et sa qualité de vie élevée. Il offre une variété de paysages, des montagnes Rocheuses aux lacs majestueux en passant par les forêts denses et les villes dynamiques. Le Canada est également réputé pour son accueil chaleureux et sa multiculturalité.</p>
         <img src="./images_projet/canada1.jpg" alt="Image du Canada" width="200" height="150">
         <img src="./images_projet/canada2.jpg" alt="Image du Canada" width="200" height="150">
@@ -84,8 +84,8 @@
        <hr>
        
        <!--France-->
-        <div class="france">
-        <li><a href="https://www.france.fr/fr/">France</a></li>
+        <div class="pays">
+        <a href="https://www.france.fr/fr/">France</a>
         <p>La France est un pays d'Europe occidentale connu pour sa culture, son histoire, sa cuisine et ses paysages variés. Elle offre une diversité de destinations, des villes emblématiques comme Paris aux régions pittoresques telles que la Provence et la Côte d'Azur. La France est également célèbre pour ses monuments historiques, ses musées renommés et sa contribution à l'art et à la mode.</p>
         <img src="./images_projet/france1.jpg" alt="france" style="width: 200px; height: 150px;">
         <img src="./images_projet/france2.webp" alt="marseille" style="width: 200px; height: 150px;">
@@ -99,8 +99,8 @@
 
 
         <!-- L'Italie-->
-        <div class="italy">
-        <li><a href="https://www.italia.it/fr">Italie</a></li>
+        <div class="pays">
+        <a href="https://www.italia.it/fr">Italie</a>
         <p>L'Italie est un pays d'Europe du Sud connu pour sa riche histoire, sa culture vibrante et sa cuisine délicieuse. Elle offre une variété de destinations, des villes emblématiques comme Rome, Florence et Venise aux régions pittoresques telles que la Toscane et la côte amalfitaine. L'Italie est également célèbre pour ses monuments historiques, ses œuvres d'art renommées et son influence sur la mode et le design.</p>
         <img src="./images_projet/italy1.webp" alt="Image de l'Italie" width="200" height="150">
         <img src="./images_projet/italy2.webp" alt="Image de l'Italie" width="200" height="150">
@@ -112,8 +112,8 @@
         <hr>
 
         <!-- L'Espagne-->
-        <div class="spain">
-        <li><a href="https://www.spain.info/fr/">Espagne</a></li>
+        <div class="pays">
+        <a href="https://www.spain.info/fr/">Espagne</a>
         <p>L'Espagne est un pays d'Europe du Sud connu pour sa culture vibrante, son histoire riche et sa diversité de paysages. Elle offre une variété de destinations, des villes emblématiques comme Madrid, Barcelone et Séville aux régions pittoresques telles que l'Andalousie et la Costa del Sol. L'Espagne est également célèbre pour sa cuisine délicieuse, ses festivals colorés et son influence sur l'art et la musique.</p>
         <img src="./images_projet/spain1.webp" alt="Image de l'Espagne" width="200" height="150">
         <img src="./images_projet/spain2.webp" alt="Image de l'Espagne" width="200" height="150">
@@ -126,22 +126,20 @@
         <hr id="end">
     </menu>
     <br><br>
-    <hr id="forfait">
+    
     <!-- Forfaits de voyage-->
     <div class="packages">
-    <p>Nos forfaits:</p>
-    <menu>
-        <li><a href="https://www.tourismeets.com/forfaits">Forfaits de voyage</a></li>
+        <a href="https://www.tourismeets.com/forfaits">Forfaits de voyage</a>
         <p>Découvrez nos forfaits de voyage exclusifs, conçus pour offrir des expériences inoubliables à des prix compétitifs. Que vous recherchiez une escapade romantique, une aventure en famille ou une exploration culturelle, nos forfaits sont adaptés à tous les types de voyageurs. Profitez de nos offres spéciales et réservez dès aujourd'hui pour vivre des moments mémorables avec Tourisme ETS !</p>
-    </menu>
+        <br><hr id="news">
     </div>
     </main>
 
-
+    <br>
     <!--Newsletter-->
     <p><b>Abonnez-vous à notre newsletter pour recevoir les dernières nouvelles et offres de Tourisme ETS !</b></p>
-    <a href="https://www.getrevue.co/profile/tourismets" target="_blank">S'abonner à la newsletter</a>
-    <br><br><br><br><br>
+    <a id="newss" href="https://www.getrevue.co/profile/tourismets" target="_blank">S'abonner à la newsletter</a>
+    <br><br><br><hr id="newsend"><br><br><br><br>
     
     
     <!--FAQ-->
