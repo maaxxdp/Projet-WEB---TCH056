@@ -125,19 +125,22 @@ footer:hover {
         font-weight: bold;
         text-align: center;
     }
+    #inscrire{
+        color:#000000
+    }
 
     .Connexion:hover {
-        background-color: #c00000;
+        background-color: #0819ff;
         border: 2px solid hsl(0, 0%, 100%);
     }
     footer:hover {
-        background-color: #970000;
-        color: #000000;
-        border: 2px solid hsl(0, 0%, 0%);
+        background-color: #0819ff;
+        color: #ffffff;
+        border: 2px solid hsl(0, 0%, 100%);
         transition: 0.5s;
     }
     footer{
-        color:#000000;
+        color:#ffffff;
     }
 
 }

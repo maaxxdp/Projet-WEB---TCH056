@@ -6,7 +6,7 @@
  <head>
     <meta charset="UTF-8">
     <title>Pro-ject</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="template.css">
  </head>
 
  <!--BODY-->
@@ -16,6 +16,7 @@
         <nav class="navbar-split">
             <!-- Boîte de gauche: liens réguliers -->
             <div class="navbar-left">
+                <a href="#">Carrières</a> |
                 <a href="index.html">Accueil</a> |
                 <a href="contact.html">Contact</a>
             </div>
@@ -39,23 +40,56 @@
         <h1>PRO-JECT</h1>
         <h3>Votre gestionnaire de projets !</h3>
           <p>Cherchez votre projet parmi les millions disponibles:</p>
-        <div class="recherche-split">
-          <div class="recherche-left">
+        
             <!-- Filtres de projet -->
-            <div class="dropdownm">
-            <p class="dropdown-label">Filtrer par catégorie:</p>
-              <div class="dropdown-menu">
-              <button class="btn active" > Montrer tout</button>
-              <button class="btn" > En vedette</button>
-              <button class="btn" > Les plus aimés</button>
-              </div>
-            </div>
-          </div>
-          <div class="recherche-right">
-            <input type="search" placeholder="Rechercher un projet..."><br><br>
-            <button type="submit">Rechercher</button>
-          </div>
-        </div>
+            <section>
+                <h2>Tous les projets</h2>
+  
+                 <form action="#" method="get">
+                    <label for="recherche">Rechercher:</label>
+                    <input type="text" id="recherche" name="recherche" placeholder="Rechercher un mot dans la description…">
+                    <br>
+                    <label for="filtre-ville">Ville:</label>
+                    <select id="filtre-ville" name="ville">
+                    <option value="">Toutes les villes</option>
+                    <option>Boucherville</option>
+                    <option>Gatineau</option>
+                    <option>Laval</option>
+                    <option>Longueuil</option>
+                    <option>Mont-Tremblant</option>
+                    <option>Montréal</option>
+                    <option>Québec</option>
+                    <option>Saint-Eustache</option>
+                    <option>Sept-Îles</option>
+                    <option>Sherbrooke</option>
+                    <option>Sorel-Tracy</option>
+                    <option>Trois-Rivières</option>
+                    <option>Val-d'Or</option>
+                    </select>
+                    <br>
+                    <label>État:</label>
+                    <label>
+                    <input type="checkbox" id="etat-encours" name="etat" value="En cours">
+                    En cours
+                    </label>
+                    <label>
+                    <input type="checkbox" id="etat-preparation" name="etat" value="En préparation">
+                    En préparation
+                    </label>
+                    <label>
+                    <input type="checkbox" id="etat-termine" name="etat" value="Terminé">
+                    Terminé
+                    </label>
+                    <br>
+                    <button type="submit">Filtrer</button>
+                    <button type="reset">Réinitialiser</button>
+                </form>
+            </section>
+            
+          
+          <br><br><br><br>
+        
+        
 
 <div class="projects-grid">
     <div class="project-card">
