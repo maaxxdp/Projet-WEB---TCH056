@@ -7,13 +7,24 @@
 </head>
 <body>
         
+    
     <!-- Barre de navigation -->
-    <nav>
-        <a href="index.html">Accueil</a> |
-        <a href="login.html">Connexion</a> |
-        <a href="contact.html">Contact</a>
-    </nav>
-  
+    <header>
+        <nav class="navbar-split">
+            <!-- Boîte de gauche: liens réguliers -->
+            <div class="navbar-left">
+                <a href="index.html">Accueil</a> |
+                <a href="contact.html">Contact</a>
+            </div>
+            
+            <!-- Boîte de droite: image + dropdown -->
+            <div class="navbar-right">
+                <div class="dropdown">
+                    <img src="./images_projet/account.png" alt="Menu utilisateur" class="dropdown-img">
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="Connexion">
         <h2>Connectez-vous</h2>
         <form action="/login" method="post">
@@ -24,10 +35,10 @@
         <input type="checkbox" id="remember" name="remember"> Se souvenir de moi <moi></moi><br><br><hr>
         <input type="submit" id="submit" value="Se connecter"><br><br>
         <a href="inscription.html">Pas encore inscrit? Créez un compte !</a>
-     
+        
     </form>
     </div>
-        <p> Pour d'autres informations, contactez-nous !</p></form>
+        <p id="inform"> Pour d'autres informations, contactez-nous !</p>
             <footer>
                 <p>© AtoshBaba Inc. (2026) Projet du cours TCH056 - Programmation Web (Été 2026)</p>
             </footer>

@@ -1,6 +1,12 @@
 nav{
     text-align:center;
 }
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 
 h2
 {
@@ -26,9 +32,8 @@ footer {
     border: 2px solid hsl(0, 0%, 100%);
     border-radius: 30px 30px 30px 30px;
     margin:0 10px;
+    margin-top: auto;
 }
-
-
 
 
 .Connexion
@@ -49,18 +54,28 @@ footer {
     padding: 10px;
     border: 1px solid hsl(0, 0%, 0%);
     border-radius: 30px;
-    background-color: #b5b5b5;
+    background-color: #ffffff;
     width: 300px;
+}
+#inform
+{
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    align-self: auto;
+    width: 60%;
+    margin: 0 auto 30px auto;
 }
 
 #email:hover, #password:hover{
     padding: 10px;
     border: 1px solid hsl(0, 0%, 0%);
     border-radius: 30px;
-    background-color: #b5b5b5;
+    background-color: #dcdcdc;
     width: 300px;
     border: 2px solid hsl(239, 100%, 50%);
 }
+
 #submit{
     padding: 10px 100px;
     border: none;
@@ -121,4 +136,8 @@ footer:hover {
         border: 2px solid hsl(0, 0%, 0%);
         transition: 0.5s;
     }
+    footer{
+        color:#000000;
+    }
+
 }
