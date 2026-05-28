@@ -36,7 +36,7 @@ main{
     height: 400px;
     width: 400px;
 }
-#email, #mdp, #mdp_confirm{
+#email, #password, #mdp_confirm{
     padding: 10px;
     border: 1px solid hsl(0, 0%, 0%);
     border-radius: 30px;
@@ -46,7 +46,7 @@ main{
 
 
 
-#email:hover, #mdp:hover, #mdp_confirm:hover{
+#email:hover, #password:hover, #mdp_confirm:hover{
     padding: 10px;
     border: 1px solid hsl(0, 0%, 0%);
     border-radius: 30px;
