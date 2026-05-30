@@ -40,9 +40,19 @@ body {
     display: flex;
     flex-direction: column;
 }
+.entete{
+    border: 3px solid #676161;
+    border-radius: 30px;
+    margin: 10px auto;
+    max-width: 600px;
+}
 
 body {
     background-color: #ededed;
+}
+#recherche, #filtre-ville{
+    padding: 0.5%;
+    margin: 5px;
 }
 
 
@@ -208,6 +218,10 @@ footer:hover {
     #navig{
         background-color: #000000;
 
+    }
+    .entete{
+        border-color: #ffffff;
+        max-width: 350px;
     }
 
 

@@ -15,7 +15,7 @@ const projets = [
         titre: "Analyser l'ancien site",
         description:
           "Identifier les pages importantes, les problèmes actuels et les besoins de refonte.",
-        priorite: "�?levée",
+        priorite: "�?levée",
         statut: "Terminée",
         dateLimite: "2026-01-25",
       },
@@ -24,7 +24,7 @@ const projets = [
         titre: "Créer la maquette de la page d'accueil",
         description:
           "Produire une maquette claire et responsive de la page principale.",
-        priorite: "�?levée",
+        priorite: "�?levée",
         statut: "Terminée",
         dateLimite: "2026-02-05",
       },
@@ -43,7 +43,7 @@ const projets = [
         description:
           "Ajouter les pages principales avec textes, images et liens internes.",
         priorite: "Moyenne",
-        statut: "�? faire",
+        statut: "�? faire",
         dateLimite: "2026-03-15",
       },
     ],
@@ -66,7 +66,7 @@ const projets = [
         titre: "Créer le modèle de données des salles",
         description:
           "Définir les champs nécessaires pour représenter les salles disponibles.",
-        priorite: "�?levée",
+        priorite: "�?levée",
         statut: "Terminée",
         dateLimite: "2026-02-10",
       },
@@ -75,7 +75,7 @@ const projets = [
         titre: "Développer le calendrier de réservation",
         description:
           "Afficher les disponibilités et les réservations existantes.",
-        priorite: "�?levée",
+        priorite: "�?levée",
         statut: "En cours",
         dateLimite: "2026-03-01",
       },
@@ -84,8 +84,8 @@ const projets = [
         titre: "Ajouter la vérification des conflits",
         description:
           "Empêcher deux réservations pour la même salle au même moment.",
-        priorite: "�?levée",
-        statut: "�? faire",
+        priorite: "�?levée",
+        statut: "�? faire",
         dateLimite: "2026-03-20",
       },
     ],
@@ -116,8 +116,8 @@ const projets = [
         id: 2,
         titre: "Créer le formulaire de déclaration",
         description:
-          "Permettre �  un utilisateur de décrire un problème rencontré.",
-        priorite: "�?levée",
+          "Permettre �  un utilisateur de décrire un problème rencontré.",
+        priorite: "�?levée",
         statut: "En cours",
         dateLimite: "2026-02-15",
       },
@@ -127,7 +127,7 @@ const projets = [
         description:
           "Permettre de suivre les bogues selon leur avancement.",
         priorite: "Moyenne",
-        statut: "�? faire",
+        statut: "�? faire",
         dateLimite: "2026-03-01",
       },
     ],
@@ -150,8 +150,8 @@ const projets = [
         titre: "Créer la page de connexion",
         description:
           "Préparer une interface de connexion simple et sécurisée.",
-        priorite: "�?levée",
-        statut: "�? faire",
+        priorite: "�?levée",
+        statut: "�? faire",
         dateLimite: "2026-03-10",
       },
       {
@@ -160,7 +160,7 @@ const projets = [
         description:
           "Présenter les informations personnelles de l'étudiant connecté.",
         priorite: "Moyenne",
-        statut: "�? faire",
+        statut: "�? faire",
         dateLimite: "2026-03-25",
       },
       {
@@ -168,8 +168,8 @@ const projets = [
         titre: "Ajouter la consultation des notes",
         description:
           "Afficher les résultats scolaires de façon organisée.",
-        priorite: "�?levée",
-        statut: "�? faire",
+        priorite: "�?levée",
+        statut: "�? faire",
         dateLimite: "2026-04-20",
       },
     ],
@@ -191,8 +191,8 @@ const projets = [
         id: 1,
         titre: "Créer l'ajout de tâche",
         description:
-          "Permettre �  l'utilisateur de créer une nouvelle tâche.",
-        priorite: "�?levée",
+          "Permettre �  l'utilisateur de créer une nouvelle tâche.",
+        priorite: "�?levée",
         statut: "Terminée",
         dateLimite: "2026-01-15",
       },
@@ -234,7 +234,7 @@ const projets = [
         titre: "Créer les événements",
         description:
           "Permettre l'ajout d'un événement avec date, lieu et description.",
-        priorite: "�?levée",
+        priorite: "�?levée",
         statut: "Terminée",
         dateLimite: "2026-02-25",
       },
@@ -242,8 +242,8 @@ const projets = [
         id: 2,
         titre: "Gérer les inscriptions",
         description:
-          "Permettre aux participants de s'inscrire �  un événement.",
-        priorite: "�?levée",
+          "Permettre aux participants de s'inscrire �  un événement.",
+        priorite: "�?levée",
         statut: "En cours",
         dateLimite: "2026-03-20",
       },
@@ -251,9 +251,9 @@ const projets = [
         id: 3,
         titre: "Afficher la liste des participants",
         description:
-          "Afficher les personnes inscrites �  chaque événement.",
+          "Afficher les personnes inscrites �  chaque événement.",
         priorite: "Moyenne",
-        statut: "�? faire",
+        statut: "�? faire",
         dateLimite: "2026-04-10",
       },
     ],
@@ -276,7 +276,7 @@ const projets = [
         titre: "Créer la fiche client",
         description:
           "Stocker les informations principales d'un client.",
-        priorite: "�?levée",
+        priorite: "�?levée",
         statut: "Terminée",
         dateLimite: "2026-02-10",
       },
@@ -294,8 +294,8 @@ const projets = [
         titre: "Créer le pipeline d'opportunités",
         description:
           "Suivre les opportunités commerciales par étape.",
-        priorite: "�?levée",
-        statut: "�? faire",
+        priorite: "�?levée",
+        statut: "�? faire",
         dateLimite: "2026-04-01",
       },
     ],
@@ -318,7 +318,7 @@ const projets = [
         titre: "Créer la table des produits",
         description:
           "Définir les champs nécessaires pour les produits.",
-        priorite: "�?levée",
+        priorite: "�?levée",
         statut: "Terminée",
         dateLimite: "2026-02-15",
       },
@@ -326,8 +326,8 @@ const projets = [
         id: 2,
         titre: "Ajouter les entrées de stock",
         description:
-          "Permettre d'ajouter des quantités �  l'inventaire.",
-        priorite: "�?levée",
+          "Permettre d'ajouter des quantités �  l'inventaire.",
+        priorite: "�?levée",
         statut: "En cours",
         dateLimite: "2026-03-05",
       },
@@ -336,8 +336,8 @@ const projets = [
         titre: "Ajouter les sorties de stock",
         description:
           "Retirer des quantités lorsqu'un produit est utilisé ou vendu.",
-        priorite: "�?levée",
-        statut: "�? faire",
+        priorite: "�?levée",
+        statut: "�? faire",
         dateLimite: "2026-03-25",
       },
     ],
@@ -347,7 +347,7 @@ const projets = [
     id: 9,
     titre: "Blog collaboratif",
     description:
-      "Permettre �  plusieurs auteurs de publier des articles.",
+      "Permettre �  plusieurs auteurs de publier des articles.",
     image:
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643",
     ville: "Drummondville",
@@ -360,7 +360,7 @@ const projets = [
         titre: "Créer les comptes auteurs",
         description:
           "Permettre aux auteurs de se connecter et de publier.",
-        priorite: "�?levée",
+        priorite: "�?levée",
         statut: "Terminée",
         dateLimite: "2026-01-15",
       },
@@ -369,7 +369,7 @@ const projets = [
         titre: "Créer l'éditeur d'article",
         description:
           "Créer un formulaire complet pour rédiger un article.",
-        priorite: "�?levée",
+        priorite: "�?levée",
         statut: "Terminée",
         dateLimite: "2026-02-01",
       },
@@ -402,17 +402,17 @@ const projets = [
         titre: "Créer le formulaire de demande",
         description:
           "Permettre aux utilisateurs de décrire leur problème.",
-        priorite: "�?levée",
-        statut: "�? faire",
+        priorite: "�?levée",
+        statut: "�? faire",
         dateLimite: "2026-03-15",
       },
       {
         id: 2,
-        titre: "Attribuer une demande �  un technicien",
+        titre: "Attribuer une demande �  un technicien",
         description:
-          "Permettre l'assignation d'un ticket �  une personne responsable.",
-        priorite: "�?levée",
-        statut: "�? faire",
+          "Permettre l'assignation d'un ticket �  une personne responsable.",
+        priorite: "�?levée",
+        statut: "�? faire",
         dateLimite: "2026-04-10",
       },
       {
@@ -421,7 +421,7 @@ const projets = [
         description:
           "Classer les tickets selon leur urgence.",
         priorite: "Moyenne",
-        statut: "�? faire",
+        statut: "�? faire",
         dateLimite: "2026-04-25",
       },
     ],
@@ -443,8 +443,8 @@ const projets = [
       titre: "Créer les profils conducteurs",
       description:
         "Permettre aux conducteurs d'ajouter leurs informations.",
-      priorite: "�?levée",
-      statut: "�? faire",
+      priorite: "�?levée",
+      statut: "�? faire",
       dateLimite: "2026-03-01",
     },
     {
@@ -452,8 +452,8 @@ const projets = [
       titre: "Publier un trajet",
       description:
         "Permettre la création d'un trajet avec ville de départ et arrivée.",
-      priorite: "�?levée",
-      statut: "�? faire",
+      priorite: "�?levée",
+      statut: "�? faire",
       dateLimite: "2026-03-20",
     },
     {
@@ -461,8 +461,8 @@ const projets = [
       titre: "Réserver une place",
       description:
         "Permettre aux passagers de réserver une place dans un trajet.",
-      priorite: "�?levée",
-      statut: "�? faire",
+      priorite: "�?levée",
+      statut: "�? faire",
       dateLimite: "2026-04-15",
     },
   ],
@@ -485,7 +485,7 @@ const projets = [
       titre: "Créer les fiches patients",
       description:
         "Ajouter les informations personnelles des patients.",
-      priorite: "�?levée",
+      priorite: "�?levée",
       statut: "Terminée",
       dateLimite: "2026-02-05",
     },
@@ -494,7 +494,7 @@ const projets = [
       titre: "Planifier les rendez-vous",
       description:
         "Permettre la réservation d'un rendez-vous médical.",
-      priorite: "�?levée",
+      priorite: "�?levée",
       statut: "En cours",
       dateLimite: "2026-03-05",
     },
@@ -504,7 +504,7 @@ const projets = [
       description:
         "Afficher les anciennes consultations d'un patient.",
       priorite: "Moyenne",
-      statut: "�? faire",
+      statut: "�? faire",
       dateLimite: "2026-04-01",
     },
   ],
@@ -528,7 +528,7 @@ const projets = [
       description:
         "Définir différentes catégories financières.",
       priorite: "Moyenne",
-      statut: "�? faire",
+      statut: "�? faire",
       dateLimite: "2026-03-12",
     },
     {
@@ -536,8 +536,8 @@ const projets = [
       titre: "Ajouter une dépense",
       description:
         "Permettre l'ajout d'une nouvelle dépense.",
-      priorite: "�?levée",
-      statut: "�? faire",
+      priorite: "�?levée",
+      statut: "�? faire",
       dateLimite: "2026-03-25",
     },
     {
@@ -546,7 +546,7 @@ const projets = [
       description:
         "Calculer les revenus moins les dépenses.",
       priorite: "Moyenne",
-      statut: "�? faire",
+      statut: "�? faire",
       dateLimite: "2026-05-05",
     },
   ],
@@ -569,7 +569,7 @@ const projets = [
       titre: "Créer une annonce",
       description:
         "Permettre l'ajout d'une annonce avec image et prix.",
-      priorite: "�?levée",
+      priorite: "�?levée",
       statut: "Terminée",
       dateLimite: "2026-02-25",
     },
@@ -578,7 +578,7 @@ const projets = [
       titre: "Afficher les annonces",
       description:
         "Présenter les annonces dans une grille.",
-      priorite: "�?levée",
+      priorite: "�?levée",
       statut: "En cours",
       dateLimite: "2026-03-20",
     },
@@ -588,7 +588,7 @@ const projets = [
       description:
         "Permettre le filtrage des annonces.",
       priorite: "Moyenne",
-      statut: "�? faire",
+      statut: "�? faire",
       dateLimite: "2026-04-15",
     },
   ],
@@ -611,7 +611,7 @@ const projets = [
       titre: "Créer les fiches animaux",
       description:
         "Ajouter les informations des animaux du refuge.",
-      priorite: "�?levée",
+      priorite: "�?levée",
       statut: "Terminée",
       dateLimite: "2026-02-12",
     },
@@ -619,8 +619,8 @@ const projets = [
       id: 2,
       titre: "Afficher les animaux disponibles",
       description:
-        "Lister les animaux disponibles �  l'adoption.",
-      priorite: "�?levée",
+        "Lister les animaux disponibles �  l'adoption.",
+      priorite: "�?levée",
       statut: "En cours",
       dateLimite: "2026-03-10",
     },
@@ -628,9 +628,9 @@ const projets = [
       id: 3,
       titre: "Créer une demande d'adoption",
       description:
-        "Permettre �  un utilisateur de faire une demande.",
-      priorite: "�?levée",
-      statut: "�? faire",
+        "Permettre �  un utilisateur de faire une demande.",
+      priorite: "�?levée",
+      statut: "�? faire",
       dateLimite: "2026-04-05",
     },
   ],
@@ -643,7 +643,7 @@ const projets = [
     "Afficher les prévisions météo de différentes villes.",
   image:
     "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b",
-  ville: "Sept-�?les",
+  ville: "Sept-Îles",
   dateDebut: "2026-02-10",
   dateFinPrevue: "2026-04-30",
   etat: "En cours",
@@ -662,7 +662,7 @@ const projets = [
       titre: "Afficher les prévisions",
       description:
         "Afficher la météo des prochains jours.",
-      priorite: "�?levée",
+      priorite: "�?levée",
       statut: "En cours",
       dateLimite: "2026-03-15",
     },
@@ -672,7 +672,7 @@ const projets = [
       description:
         "Afficher des icônes selon les conditions.",
       priorite: "Faible",
-      statut: "�? faire",
+      statut: "�? faire",
       dateLimite: "2026-04-01",
     },
   ],
@@ -695,7 +695,7 @@ const projets = [
       titre: "Créer les équipes",
       description:
         "Ajouter les équipes participantes.",
-      priorite: "�?levée",
+      priorite: "�?levée",
       statut: "Terminée",
       dateLimite: "2026-01-30",
     },
@@ -704,7 +704,7 @@ const projets = [
       titre: "Créer le calendrier des matchs",
       description:
         "Programmer les rencontres.",
-      priorite: "�?levée",
+      priorite: "�?levée",
       statut: "En cours",
       dateLimite: "2026-02-28",
     },
@@ -714,7 +714,7 @@ const projets = [
       description:
         "Permettre l'ajout des résultats.",
       priorite: "Moyenne",
-      statut: "�? faire",
+      statut: "�? faire",
       dateLimite: "2026-03-20",
     },
   ],
@@ -737,8 +737,8 @@ const projets = [
       titre: "Créer les chambres",
       description:
         "Ajouter les chambres avec prix et capacité.",
-      priorite: "�?levée",
-      statut: "�? faire",
+      priorite: "�?levée",
+      statut: "�? faire",
       dateLimite: "2026-02-25",
     },
     {
@@ -746,8 +746,8 @@ const projets = [
       titre: "Créer les réservations",
       description:
         "Permettre de réserver une chambre.",
-      priorite: "�?levée",
-      statut: "�? faire",
+      priorite: "�?levée",
+      statut: "�? faire",
       dateLimite: "2026-03-25",
     },
     {
@@ -755,8 +755,8 @@ const projets = [
       titre: "Afficher les disponibilités",
       description:
         "Vérifier les chambres libres.",
-      priorite: "�?levée",
-      statut: "�? faire",
+      priorite: "�?levée",
+      statut: "�? faire",
       dateLimite: "2026-04-20",
     },
   ],
@@ -788,7 +788,7 @@ const projets = [
       titre: "Ajouter les membres",
       description:
         "Créer les fiches membres.",
-      priorite: "�?levée",
+      priorite: "�?levée",
       statut: "En cours",
       dateLimite: "2026-02-25",
     },
@@ -798,7 +798,7 @@ const projets = [
       description:
         "Afficher les paiements effectués.",
       priorite: "Moyenne",
-      statut: "�? faire",
+      statut: "�? faire",
       dateLimite: "2026-03-30",
     },
   ],
@@ -820,8 +820,8 @@ const projets = [
       id: 1,
       titre: "Créer les commandes",
       description:
-        "Ajouter les commandes �  livrer.",
-      priorite: "�?levée",
+        "Ajouter les commandes �  livrer.",
+      priorite: "�?levée",
       statut: "Terminée",
       dateLimite: "2026-02-15",
     },
@@ -829,8 +829,8 @@ const projets = [
       id: 2,
       titre: "Assigner un livreur",
       description:
-        "Associer un livreur �  une commande.",
-      priorite: "�?levée",
+        "Associer un livreur �  une commande.",
+      priorite: "�?levée",
       statut: "En cours",
       dateLimite: "2026-03-10",
     },
@@ -840,7 +840,7 @@ const projets = [
       description:
         "Afficher le statut en temps réel.",
       priorite: "Moyenne",
-      statut: "�? faire",
+      statut: "�? faire",
       dateLimite: "2026-04-05",
     },
   ],
