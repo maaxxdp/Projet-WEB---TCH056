@@ -7,10 +7,19 @@ const grilleProjet = document.querySelector(".projects-grid");
 
 
 /*Filtre de recherche*/
-btnsubmit.addEventListener("click", Filtre());
+btnsubmit.addEventListener("click", Filtre);
 
 function Filtre() {
 
+    /*récupérer les valeur tapée dans le champ de recherche*/
+    let valeurTaper = document.getElementById("recherche"); //barre de recherche
+
+    let villeChoisie = document.getElementById("filtre-ville"); //ville choisie
+
+    /*récupérer les états cochés*/
+    let etatCocher = document.get("");
+
+    /*Filtrer le tableau "projets" selon les critères choisis*/
     
 }
 
